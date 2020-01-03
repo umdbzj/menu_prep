@@ -1,0 +1,23 @@
+MODELS
+	Users
+		Admin
+			can edit all records
+		Normal users
+			can only edit what they have created
+	Main dishes
+		Add/Create
+		Read (display one randomly)
+		Edit/Update
+		Delete
+	Side dishes
+		Add/Create
+		Read (display one randomly)
+		Edit/Update
+		Delete
+	Extras
+		Add/Create
+		Calculate if there should be one (%)
+			Read (display one randomly)
+		Edit/Update
+		Delete	
+		
