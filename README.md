@@ -1,24 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example application for a "random" menu generator requested by my spouse, 
+who does not like to plan meals.  As is typical for an agile application, this will
+evolve as he decides what features he wants.  
 
-Things you may want to cover:
 
-* Ruby version
+## Phase 1
 
-* System dependencies
+Phase one simply includes several tables in the database without any relationship 
+between them.  The database is populated with seed.db and the views are pretty simple.
 
-* Configuration
+## License
 
-* Database creation
+You are free to copy and use any of this code for your own purposes, just give
+attribution.  
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get started with the app, clone the repo and install the needed gems:
+---
+$ bundle install --without production
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+Next, migrate the database:
+---
+$ rails db:migrate
+---
 
-* Deployment instructions
+Finally, run the test suite to verify that everything is working correctly:
 
-* ...
+---
+$ rails test
+---
+
+If the test suite passes, you are ready to run the app in a local server:
+
+---
+$ rails server
+---
+
+
