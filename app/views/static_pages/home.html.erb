@@ -1,6 +1,14 @@
 <% provide(:title, "Home") %>
+<div class="center jumbotron">
 <h1>Menu Preparation Suite</h1>
+<p>This will eventually be the location for a set of apps to aid in menu planning 
+and preparation.</p>
+<h2>Random Menu</h2>
 <p>This app provides a (very) simple random menu generator based on three independent
 tables: a main dish, a side dish, and a finishing treat.</p>
 <p>Note: this is just a basic start and will gradually become more complex.</p>
+<%= link_to "Try again!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+<p>Powered by Ruby on Rails!</p>
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
 

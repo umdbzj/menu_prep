@@ -21,3 +21,12 @@ MODELS
 		Edit/Update
 		Delete	
 		
+		
+Color scheme should have something to do with food.  I'm feeling in the mood for wine
+and chocolate!!!
+
+Red wine: #722f37  (Shades and tints at: https://www.colorhexa.com/722f37)
+White wine: #f7e1d9 (Variations: https://encycolorpedia.com/f7e1d9)
+Dark chocolate: #3c1321 (see also: https://encycolorpedia.com/3c1321)
+Port or sherry: #8e594a (see also: https://encycolorpedia.com/8e594a)
+		
