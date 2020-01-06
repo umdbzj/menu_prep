@@ -29,4 +29,11 @@ Red wine: #722f37  (Shades and tints at: https://www.colorhexa.com/722f37)
 White wine: #f7e1d9 (Variations: https://encycolorpedia.com/f7e1d9)
 Dark chocolate: #3c1321 (see also: https://encycolorpedia.com/3c1321)
 Port or sherry: #8e594a (see also: https://encycolorpedia.com/8e594a)
+
+A "fun" color scheme that might work:
+http://colorate.azurewebsites.net/Color/FCFAFA#modals
+base color: #A27B7B,
+body: #FCFAFA,
+accent1: #7BA28A,
+accent2: #7B8AA2
 		
