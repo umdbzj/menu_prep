@@ -1,0 +1,7 @@
+<% provide(:title, 'Maindishes') %>
+<h1>All Maindishes</h1>
+<ul>
+	<% @maindishes.each do |maindish| %>
+		<li><%= maindish.name %></li>
+	<% end %>
+</ul>

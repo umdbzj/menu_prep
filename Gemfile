@@ -42,6 +42,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  
+  # to attempt to fix readline errors when trying to run rails console
+ gem 'rb-readline'
 end
 
 group :development do
