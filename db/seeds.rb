@@ -7,6 +7,20 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 # Try just making a maindish
 
-	Maindish.create(name: 'Green eggs and ham')
-	Maindish.create(name: 'Spaghetti with meatballs')
-	Maindish.create(name: 'Swedish waffles with gjetost')
+#   Doing it by hand .....
+#	Maindish.create(name: 'Green eggs and ham')
+#	Maindish.create(name: 'Spaghetti with meatballs')
+#	Maindish.create(name: 'Swedish waffles with gjetost')
+
+require 'csv'
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'maindishes.csv'))
+csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+csv.each do |row|
+	m = Maindish.new
+	m.name = row['name']
+	m.save
+	puts "#{m.name} saved"
+end
+
+puts "There are now #{Maindish.count} rows in the Maindishes table."
