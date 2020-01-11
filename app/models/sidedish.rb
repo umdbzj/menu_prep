@@ -1,0 +1,2 @@
+class Sidedish < ApplicationRecord
+end

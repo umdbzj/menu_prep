@@ -24,3 +24,25 @@ csv.each do |row|
 end
 
 puts "There are now #{Maindish.count} rows in the Maindishes table."
+
+side_text = File.read(Rails.root.join('lib', 'seeds', 'sidedishes.csv'))
+side = CSV.parse(side_text, :headers => true, :encoding => 'ISO-8859-1')
+side.each do |row|
+	s = Sidedish.new
+	s.name = row['name']
+	s.save
+	puts "#{s.name} saved"
+end
+
+puts "There are now #{Sidedish.count} rows in the Sidedishes table."
+
+treat_text = File.read(Rails.root.join('lib', 'seeds', 'treats.csv'))
+treat = CSV.parse(treat_text, :headers => true, :encoding => 'ISO-8859-1')
+treat.each do |row|
+	t = Treat.new
+	t.name = row['name']
+	t.save
+	puts "#{t.name} saved"
+end
+
+puts "There are now #{Treat.count} rows in the Treats table."
