@@ -4,7 +4,7 @@ This is an example application for a "random" menu generator requested by my spo
 who does not like to plan meals.  As is typical for an agile application, this will
 evolve as he decides what features he wants.  
 
-The app will be deployed during development at: https://menu-prep.herokuapp.com/
+The app will be deployed during development at: https://new-menu-prep.herokuapp.com/
 
 
 ## Phase 1
